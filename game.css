@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500&family=Sedgwick+Ave+Display&display=swap');
+body{
+    background-image: url("wallpaper/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+table tr td{
+    font-family: "Sedgwick Ave Display";
+    color: rgb(157, 236, 39);
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.btn-close{
+    background-color: ivory;
+    font-weight:bold;
+}
+.card{
+    height: 150px;
+    border-color: cadetblue;
+    box-shadow: 10px 10px 5px #ddcbcb;
+    justify-content: center;
+    text-align: center;
+}
+.card span{
+    color: green;
+    font-weight: bold;
+}
+.dicesection img{
+    width: 100px;
+    height: 100px;
+}
+.dicesection{
+    justify-content: center;
+    text-align: center;
+    
+}
+#res h3{
+    justify-content: center;
+    text-align: center;
+    font-family: "Big Shoulders Stencil Display";
+    font-weight:bold;
+    color:black
+}
+.result h2{
+    justify-content: center;
+    text-align: center;
+    font-family: "Big Shoulders Stencil Display";
+    font-weight:bold;
+    color: black
+}
+#playagain{
+    background-color: rgb(41, 221, 35);
+    color: #fff;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    display: none;
+}
+#playagain:hover{
+    background-color: sandybrown;
+    color: black;
+}
